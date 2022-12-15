@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Coefficient of Friction</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Home</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="Coil_Winder_Page.html">Coil Winder</a></li>
+							<li><a href="Wrist_Loader_Page.html">Wrist Loader</a></li>
+							<li><a href="PCB_Christmas_Tree_Page.html">PCB Christmas Tree</a></li>
+							<li><a href="Admittance_Data_Collection_Page.html">Admittance Data Collection</a></li>
+							<li><a href="Coefficient_Of_Friction_Page.html">Coefficient of Friction</a></li>
+							<li><a href="Cornhole_Page.html">Cornhole</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Coefficient of Friction</h1>
+							<!-- Text -->
+							<section>
+								<h2>Project Overview</h2>
+								<p>As part of my master’s thesis, I had to determine the Coulomb coefficient of friction between the rotor and the stator of an ultrasonic motor. The contacting materials of the rotor and the stator are quite often specialized materials resulting in their coefficients of friction not being widely documented. As such, I designed a system that was comprised of basic equipment to determine the coefficient.</p>
+								<hr />
+							</section>
+
+							<!-- Image -->
+							<section>
+								<h2>System Overview</h2>
+								<div class="box alt">
+									<div class="row aln-center">
+										<div class="col-10"><span class="image fit"><img src="images/Coefficient_of_Friction/Coefficient_of_Friction_System.png" alt="" /></span></div>
+									</div>
+									<p>Due to the composition of the rotor and the stator as well as their relative motions, the setup was designed such that it was possible to isolate the forces required to rotate the rotor relative to the stator while they were in contact. This was accomplished by attaching a torque sensor to the carriage of a lead screw, which was coupled to a brushless DC motor. The torque sensor had a linear arm used to anchor a line at a known distance from the pivot point. The stator was anchored to a mount and the rotor had an adapter that would allow the line to be wrapped around it without contacting itself while also holding a test mass to produce a known normal force. The line then continued to a fixed pulley that allowed the line to hang off of a table and be attached to a test mass that kept tension in the line.</p>
+									<p>As the torque sensor moves, a variety of forces contribute to the torque it senses. To isolate the torque produced by the frictional forces, torque data were collected when the rotor rotated while in contact with the stator, and when it could rotate freely. These two datasets were then subtracted from one another to isolate the torque produced by the frictional forces. The Coulomb coefficient of friction was then determined through evaluating the dynamic and geometric relations of the setup.</p>
+								</div>
+								<div class="box alt">
+									<div class="row gtr-uniform">
+										<div class="col-6"><span class="image fit"><img src="images/Coefficient_of_Friction/Motor_Exploded_View.png" alt="" /></span></div>
+										<div class="col-6"><span class="image fit"><img src="images/Coefficient_of_Friction/No_Motor_Exploded_View.png" alt="" /></span></div>
+									</div>
+								</div>
+								<br>
+								<h2>3D-Printed Parts</h2>
+								<div class="box alt">
+									<div class="row gtr-center">
+										<div class="col-4"><span class="image fit"><img src="images/Coefficient_of_Friction/Pulley_Assembly.JPG" alt="" /><center><p>Line pulley.</p></center></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/Coefficient_of_Friction/Stator_Mount.JPG" alt="" /><center><p>Stator mount.</p></center></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/Coefficient_of_Friction/Rotor_Attachment_1.JPG" alt="" /><center><p>Rotor adapter.</p></center></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/Coefficient_of_Friction/Bushing.JPG" alt="" /><center><p>Bushing to ensure concentric rotation of the rotor.</p></center></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/Coefficient_of_Friction/Bushing_Extended.JPG" alt="" /><center><p>Support bushing to allow the rotor to rotate freely.</p></center></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/Coefficient_of_Friction/Basket.JPG" alt="" /><center><p>Hanging mass basket.</p></center></span></div>
+									</div>
+								</div>
+								<br>
+							</section>
+
+							<!-- Physcial Implementation -->
+							<section>
+								<h2>Physical Implementation</h2>
+								<div class="box alt">
+									<div class="row aln-center">
+										<div class="col-10"><span class="image fit"><img src="images/Coefficient_of_Friction/Real_System.png" alt="" /></span></div>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+				<center>
+					<footer id="footer">
+							<section>
+								<h2>Contact</h2>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/shaemustracey/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="tel:7057155273" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="mailto:shaemus15@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+								</section>
+							</section>
+							<ul class="copyright">
+								<li>&copy; 2022 Shaemus Tracey. All rights reserved.</li><li>
+							</ul>
+					</footer>
+				</center>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
